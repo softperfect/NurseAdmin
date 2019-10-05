@@ -1,0 +1,56 @@
+page-notification {
+    .toolbar-background-md{
+        background-color: #177ec0;
+        color: #ffff;
+      }
+      .toolbar-title-md{
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+      }
+      .toolbar-md{
+        min-height: 50px;
+      }
+    .scroll-content {
+        background: #f6f7fb;
+    }
+          .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default{
+            color: #fff;
+          }
+          .title_h5{
+            font-size: 16px;
+        color: #177ec0;
+        margin: 5px 0;
+        font-weight: 300;
+    }
+          .para{
+            font-size: 13px;
+        line-height: 16px;
+        margin: 5px 0;
+        color: #666;
+          }
+          .dt{
+            float: right;
+            font-size: 11px;
+            color: #666;
+          }
+          .bg_b{
+            background-color: #fff;
+        margin: 15px 0 0;
+        padding: 5px;
+          }
+          button.back-button.disable-hover.bar-button.bar-button-ios.back-button-ios.bar-button-default.bar-button-default-ios.show-back-button{
+              color:#fff;
+          }
+          .bar-button-default-md:hover:not(.disable-hover), .bar-button-clear-md-default:hover:not(.disable-hover), .bar-button-md-default:hover:not(.disable-hover){
+              color:#fff;
+          }
+          ion-title{
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 12px;
+            text-align: center;
+          }
+}

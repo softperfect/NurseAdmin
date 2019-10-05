@@ -1,0 +1,52 @@
+page-adminnotesdetails {
+  .toolbar-background-md{
+    background-color: #177ec0;
+    color: #ffff;
+  }
+  .toolbar-title-md{
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+  }
+  .toolbar-md{
+    min-height: 50px;
+  }
+  .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .bar-button-default-md:hover, .bar-button-clear-md-default:hover, .bar-button-md-default:hover{
+    color: #ffffff !important;
+  }
+  .searchbar-md {
+    background: #177ec0;
+    padding: 8px;
+    margin-top: 6px;
+  }
+  .searchbar-md .searchbar-input{
+    border-radius: 15px !important;
+  }
+  .content-d h3{
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .content-d{
+    margin-top: 7px;
+  }
+  .content-d p{
+    line-height: 22px;
+    font-size: 12px;
+    margin: 0;
+  }
+  .border-s{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 13px;
+  }
+  ion-title{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 12px;
+    text-align: center;
+  }
+}

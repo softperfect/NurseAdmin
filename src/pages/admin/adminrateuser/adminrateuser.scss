@@ -1,0 +1,60 @@
+page-adminrateuser {
+    .toolbar-background{
+        background-color: #177ec0;
+        color:#ffff;
+    }
+    .toolbar-title{
+        color: #fff;
+    }
+    .toolbar{
+        min-height: 50px;
+    }
+    .ratenursingimg{
+        height: 80px;    
+        width: 80px;
+        margin-top: 30px;
+    }
+    h5.rateuserheading {
+        padding-top: 48px;
+        font-size: 12px;
+        font-weight: 600;
+        margin: 0px 0px 5px 10px;
+    }
+    h6.rateuseremail {
+        margin: 0;
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    p.additionhead {
+        margin: 25px 0 -10px 0;
+        font-size: 10px;
+    }
+    p.additioncontent {
+        padding: 12px;
+        font-size: 10px;
+    }
+    ul {
+        padding: 0px;
+        margin: 0;
+      
+        &.rating li {
+          padding: 5px 0px !important;
+          background: none;
+          color: #ffb400;
+          text-align: left;
+    
+          ion-icon {
+            font-size: 20px;
+            text-align: left;
+            padding: 0 4px;
+          }
+        }
+    }
+    ion-title{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 12px;
+        text-align: center;
+      }
+}

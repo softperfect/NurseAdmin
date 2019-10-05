@@ -1,0 +1,68 @@
+page-addblog {
+    .toolbar-background{
+        background-color: #177ec0;
+        color:#ffff;
+      }
+      .toolbar-title{
+        color: #fff;
+      }
+      .toolbar{
+        min-height: 50px;
+      }
+
+    .blogss input{
+    height: 44px;
+    padding: 11px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-bottom: 15px;
+    }
+    .blogss ion-item{
+        border: 1px solid #ccc;
+        margin-top: 14px;
+        border-radius: 3px;
+    }
+    .blogss textarea{
+        height: 96px;
+        padding: 11px;
+        width: 100%;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        resize: initial;
+    }
+    .text-input-md{
+        margin: 0px;
+    }
+    .uplaods{
+        background-color: #177ec0;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 19px;
+    height: 41px;
+    font-size: 16px;
+
+    }
+    .addimg button{
+        background-color: #177ec0;
+        color: #fff;
+        width: 100%;
+        padding: 11px;
+        font-size: 14px;
+        margin-top: -4px;
+    }
+    .addimg{
+        margin-bottom: 20px;
+    }
+    ion-title{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 12px;
+        text-align: center;
+      }
+
+}

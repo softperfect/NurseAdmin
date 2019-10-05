@@ -1,0 +1,136 @@
+page-nurseeditprofile {
+     .toolbar-background{
+        background-color: #177ec0;
+        color:#ffff;
+      }
+  ion-content{
+    background-color: #f6f7fb !important;
+  }
+ .toolbar-title{
+    color: #fff;
+  }
+  .toolbar{
+    min-height: 50px;
+  }
+  .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default{
+    color: #fff;
+  }
+
+  .myprofile{
+    background-color: #e5e5e5;
+    padding: 36px 0 17px;
+    position: relative;
+  }
+ 
+  .myprofile h1{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 8px;
+    color: #494343;
+  }
+  .editp{
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+    color: #7b7878;
+  }
+  .personal-onfo h1{
+    font-size: 17px;
+    color: red;
+    margin: 0;
+  }
+  .bg-info{
+    background-color:#E5E5E5;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+  }
+  .bg-info p{
+    margin: 0;
+    margin-bottom: 12px;
+    color: #000;
+  }
+  .bg-info ion-icon{
+    color: #374fcc;
+    margin-right: 10px;
+  }
+  .no-margin{
+    margin: 0;
+  }
+  .addmembers img{
+    display: block;
+    margin: 0 auto;
+  }
+  .addmembers p{
+    line-height: 19px;
+    font-size: 13px;
+    color: #374fcc;
+    margin-top: 7px;
+    text-align: center;
+  }
+  .btn-add button{
+    background-color: transparent;
+    text-align: center;
+    color: #374fcc;
+    font-weight: 500;
+  }
+  .btn-add{
+    text-align: center;
+  }
+  .btn-add img{
+    margin-top: 10px;
+  }
+  .myprofile input{
+    visibility: hidden;
+    position: absolute;
+  }
+  .myprofile label{
+    position: absolute;
+    top: 33px;
+    right: 33%;
+    background-color: #374fcc;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 100%;
+    font-size: 12px;
+  }
+
+  .label-md-primary, .item-input .label-md-primary, .item-select .label-md-primary, .item-datetime .label-md-primary{
+    color: #5c6370;
+  }
+  .update{
+    background-color: #177ec0;
+    color: #fff;
+  }
+  .update:hover{
+    background-color: #177ec0 !important;
+    color: #fff;
+  }
+  button.back-button.disable-hover.bar-button.bar-button-ios.back-button-ios.bar-button-default.bar-button-default-ios.show-back-button{
+    color:#fff;
+  }
+
+  .edit-p img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+  }
+  .edit-p{
+    margin-top:30px;
+  }
+  .edit-p input{
+    visibility: hidden;
+    position: absolute;
+  }
+  ion-title{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 12px;
+    text-align: center;
+  }
+}

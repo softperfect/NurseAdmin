@@ -1,0 +1,42 @@
+page-admintermofuse {
+    .mang20 h3{
+        text-align: center;
+        font-size: 15px;
+        line-height: 22px;
+        color: #626265;
+      }
+       ion-content{
+         background-color: #f6f7fb !important;
+       }
+       p{
+         font-size: 12px;
+         line-height: 22px;
+         color: #626265;
+       }
+       h4{
+         font-size: 16px;
+         color: #626265;
+       }
+       ion-title{
+         position: absolute;
+         left: 0px;
+         right: 0px;
+         top: 12px;
+       }
+       .toolbar-background{
+        background-color: #177ec0;
+        color:#ffff;
+      }
+  ion-content{
+    background-color: #f6f7fb !important;
+  }
+      .toolbar-title{
+        color: #fff;
+      }
+    .scroll-content {
+        background: #f6f7fb;
+    }
+    ion-icon{
+        color:#fff;
+    }
+}

@@ -1,0 +1,42 @@
+<!--
+  Generated template for the DidyouknowPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>Did You Know</ion-title>
+    <div class="add-btn">
+  
+    </div>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+ <div class="family_one"  *ngFor="let blog of blogList; let i = index"  >
+   <h3>{{blog.blog_name}}: {{blog.author_name}}</h3>
+    <img style="    height: 200px;
+    width: 100%;
+    object-fit: cover;" src={{blog.blog_image}} (click)="diddetails(blog.id)"/>
+    <span> <ion-icon name="clock"></ion-icon> Posted on {{blog.created_date}}  </span>
+   
+  <p>{{blog.blog_description}}</p>
+
+
+ </div>
+
+
+
+
+
+
+
+</ion-content>

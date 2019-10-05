@@ -1,0 +1,59 @@
+page-purchaseplan {
+    .toolbar-background-md{
+        background-color: #177ec0;
+        color: #ffff;
+      }
+      .toolbar-title-md{
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+      }
+      .toolbar-md{
+        min-height: 50px;
+      }
+      .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default{
+        color: #fff;
+      }
+  
+      .total-heading p{
+        margin: 0;
+        color: #177ec0;
+        font-size: 17px;
+        font-weight: 500;
+      }
+      .total-heading p span{
+        text-align: right;
+        float: right;
+      }
+      .bg-plans{
+        background-color: #fff;
+        padding:10px;
+        margin-top: 13px;
+      }
+      .purches-p h2{
+        font-size: 16px;
+        color: #177ec0;
+        margin-top: 2px !important;
+        margin-bottom: 0;
+      }
+      .purches-p p{
+        font-size: 13px;
+        line-height: 18px;
+        margin: 7px 0;
+      }
+     
+      .purches-p p span{
+        text-align: right;
+        float: right;
+      }
+      button.back-button.disable-hover.bar-button.bar-button-ios.back-button-ios.bar-button-default.bar-button-default-ios.show-back-button{
+        color:#fff;
+      }
+      ion-title{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 12px;
+        text-align: center;
+      }
+}

@@ -1,0 +1,83 @@
+<!--
+  Generated template for the NurseeditprofilePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>My Profile</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+<div class="edit-p">
+  <label>
+    <img src="{{pathForImage(lastImage)?pathForImage(lastImage):nursePic}}" (click)="presentActionSheet()">
+
+  </label>
+</div>
+
+
+<div class="input-design">
+  <form [formGroup]="authForm" (ngSubmit)="onSubmit(authForm.value)">
+    <ion-list>
+
+      <ion-item [ngClass]="{'error-border':!authForm.controls.firstname.valid && authForm.controls.firstname.touched}">
+        <ion-label color="primary" floating>First Name</ion-label>
+        <ion-input  formControlName="firstname" [(ngModel)]="firstname"></ion-input>
+      </ion-item>
+      <div *ngIf="authForm.controls.firstname.hasError('required') && authForm.controls.firstname.touched">
+        <p class="com">Enter Name</p>
+      </div>
+      <div *ngIf="authForm.controls.firstname.hasError('pattern') && authForm.controls.firstname.touched">
+          <p class="com">Invalid Name</p>
+      </div>
+
+      <ion-item [ngClass]="{'error-border':!authForm.controls.lastname.valid && authForm.controls.lastname.touched}">
+        <ion-label color="primary" floating>Last Name</ion-label>
+        <ion-input  type="text" formControlName="lastname" [(ngModel)]="lastname"></ion-input>
+      </ion-item>
+      <div *ngIf="authForm.controls.lastname.hasError('required') && authForm.controls.lastname.touched">
+        <p class="com">Enter Name</p>
+    </div>
+      <div *ngIf="authForm.controls.lastname.hasError('pattern') && authForm.controls.lastname.touched">
+          <p class="com">Invalid Name</p>
+      </div>
+
+      <ion-item [ngClass]="{'error-border':!authForm.controls.workplace.valid && authForm.controls.workplace.touched}" >
+        <ion-label color="primary" floating>Work Place Name</ion-label>
+        <ion-input  type="text" formControlName="workplace" [(ngModel)]="workplace"></ion-input>
+      </ion-item>
+
+      <div *ngIf="authForm.controls.workplace.hasError('required') && authForm.controls.workplace.touched">
+        <p class="com">Enter WorkPlace Name</p>
+    </div>
+      <div *ngIf="authForm.controls.workplace.hasError('pattern') && authForm.controls.workplace.touched">
+          <p class="com">Invalid WorkPlace Name</p>
+      </div>
+
+      <ion-item [ngClass]="{'error-border':!authForm.controls.Designation.valid && authForm.controls.Designation.touched}">
+        <ion-label color="primary" floating>Designation</ion-label>
+        <ion-input type="text" formControlName="Designation" [(ngModel)]="Designation"></ion-input>
+      </ion-item>
+      <div *ngIf="authForm.controls.Designation.hasError('required') && authForm.controls.Designation.touched">
+        <p class="com">Enter Designation</p>
+    </div>
+      <div *ngIf="authForm.controls.Designation.hasError('pattern') && authForm.controls.Designation.touched">
+          <p class="com">Invalid Designation</p>
+      </div>
+      
+    </ion-list>
+
+    <div padding>
+      <button ion-button full class="update" [disabled]="!authForm.valid">Save</button>
+    </div>
+  </form>
+
+</div>
+
+</ion-content>

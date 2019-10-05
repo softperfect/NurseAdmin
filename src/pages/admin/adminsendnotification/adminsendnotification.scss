@@ -1,0 +1,43 @@
+page-adminsendnotification {
+     .toolbar-background{
+        background-color: #177ec0;
+        color:#ffff;
+    }
+    .toolbar-title{
+        color: #fff;
+    }
+    .toolbar{
+        min-height: 50px;
+    }
+    input#subject {
+        width: 100%;
+        margin: 50px 0px 12px 0px;
+        padding: 5px;
+    }
+    textarea#comment {
+        width: 100%;
+    }
+    button.button.button-md.button-default.button-default-md.button-md-primary {
+        padding: 4px 80px;
+        font-size: 12px;
+        margin: 0 auto;
+        margin-top: 115px;
+    }
+    input::placeholder, textarea::placeholder{
+        color: #000;
+    }
+    .button-md-primary {
+        color: #fff;
+        background-color: #177ec0 !important;
+    }
+    ion-title{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 12px;
+        text-align: center;
+      }
+      ion-icon{
+          color:#fff;
+      }
+}

@@ -1,0 +1,46 @@
+<!--
+  Generated template for the FamilyprofilePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Family Profile</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+    <ion-row class="info-dada" *ngFor="let family of familyLsit">
+        <h1>{{family.relation}} <span style="    float: right;
+          margin-right: 117px;">{{family.firstname}} {{family.lastname}}</span> <span style="float: right"> 
+        </span></h1>
+      <ion-col col-5 class="user">
+       <img src='assets/imgs/Spouse.png' style=" width: 115px;
+       height: 115px;
+       object-fit: contain;">
+      </ion-col>
+        <ion-col col-7>
+        <div class="img-content">
+         <h3>Personal info</h3>
+          <p>{{family.phone_number}}</p>
+          <p>{{family.email}}</p>
+        </div>
+    
+          <div class="img-content">
+            <h3>Doctors info</h3>
+            <p>{{family.doctor_name}}</p>
+            <p>{{family.doctor_phone_number}}</p>
+            <p>{{family.doctor_email}}</p>
+          </div>
+    
+        </ion-col>
+      </ion-row>
+      <div class="nodata">
+        <h2 style="text-align: center;font-size: 19px;color: #a79999;">No Family Memeber Found !</h2>
+        </div>
+</ion-content>

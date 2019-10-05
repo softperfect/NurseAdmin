@@ -1,0 +1,65 @@
+page-nurseelectronicnotes {
+ .toolbar-background-md{
+        background-color: #177ec0;
+        color: #ffff;
+      }
+      .toolbar-title-md{
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+      }
+      .toolbar-md{
+        min-height: 50px;
+      }
+      .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+        color: #ffffff;
+        background-color: transparent;
+    }
+    .bar-button-default-md:hover, .bar-button-clear-md-default:hover, .bar-button-md-default:hover{
+        color: #ffffff !important;
+    }
+    .name1{
+        margin: 0;
+        font-size: 15px;
+        color: #565050;
+      }
+      .time10{
+        margin: 1px 0;
+        color: #565050;
+        font-size: 12px;
+      }
+      .grop_btn{
+            width: 85%;
+    height: 20px;
+    font-size: 11px;
+    border-radius: 25px;
+    text-transform: capitalize;
+    color: #e21212;
+    text-decoration: underline;
+      }
+    
+      .rem{
+              border: 1px solid #e21212;
+    text-decoration: none !important;
+    background: #e21212;
+    border-radius: 3px;
+    color: #fff;
+      }
+      .button-clear-md:hover:not(.disable-hover){
+          background:  #e21212 !important;
+      }
+      a{
+          opacity: 1.0;
+      }
+   .enable-hover a:hover, .grop_btn {
+    opacity: 1.0 !important;
+}
+ion-title{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 12px;
+  text-align: center;
+}
+}

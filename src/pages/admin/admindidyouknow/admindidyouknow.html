@@ -1,0 +1,52 @@
+<!--
+  Generated template for the AdmindidyouknowPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+         
+        </button>
+        <button style="     background-color: transparent;
+        border: none;
+        color: #fff;
+        font-size: 21px;
+        position: absolute;
+        right: 10px;
+        top: 8px;
+        width: 10%;
+        height: 30px;
+        z-index: 11;
+    " (click)="addyou()">
+         <ion-icon name="add"></ion-icon>
+        </button>
+        
+    <ion-title>Did You Know</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+ <div class="family_one" *ngFor = "let blog of blogList" >
+   <p class="hjk">{{blog.blog_name}}: {{blog.author_name}}</p>
+    <img style="    height: 200px;
+    width: 100%;
+    object-fit: cover;" src={{blog.blog_image}} (click)="diddetails(blog.id)"/>
+    <span>{{blog.created_date}}</span>
+   
+    <p class="tuhj">{{blog.blog_description}} 
+    </p>
+ </div>
+
+
+   
+
+
+
+</ion-content>

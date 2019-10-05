@@ -1,0 +1,81 @@
+<!--
+  Generated template for the UserdetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{user_name}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+<div class="user_sec" style="padding:0 16px">
+ <ion-row>
+   <ion-col col-4>
+    <img src={{user_pic?user_pic:defaultPic}} class="pic">
+   </ion-col>
+   <ion-col col-8>
+      <p>{{user_name}}</p>
+      <p style="color: #177ec0;" (click)="viewDoctor()">View Personal and Doctor's Info.</p>
+   </ion-col>
+ </ion-row>
+</div>
+
+<div class="section_one" style="padding:0 16px">
+<h5 style="margin: 6px 0;">Electronic Notes</h5>
+<p style="font-size: 13px;
+font-weight: 400;
+line-height: 19px;">Click at "View Electronic Notes" below, to see the list 
+  of all Electronic notes sent to the physician and family
+  members of the user.</p>
+  <p style="color:#177ec0;margin:10px 0;" (click)="viewelectnic()">View Electronic Notes</p>
+
+</div>
+
+
+
+<div class="section_one" style="padding:0 16px">
+<h5 style="margin: 10px 0 0px;">Family Members</h5>
+<p style="font-size: 13px;
+font-weight: 400;
+line-height: 19px;">Click at "View Family Members" below, to see the list 
+  of all Family Members and other Details.</p>
+  <p style="color:#177ec0;margin:10px 0;" (click)="viewfamily()">View Family Members</p>
+</div>
+
+<div class="section_one" style="padding:0 16px">
+    <h5 style="margin: 10px 0 0px;">Authorized Persons</h5>
+    <p style="font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;">Click at "View Authorized Person" below, to see the list 
+      of Authorized Persons and other Details.</p>
+      <p style="color:#177ec0;margin:10px 0;" (click)="viewAuthorise()">View Authorized Person</p>
+    </div>
+
+    <div class="section_one" style="padding:0 16px">
+        <h5 style="margin: 10px 0 0px;">Purchased Plans</h5>
+        <p style="font-size: 13px;
+        font-weight: 400;
+        line-height: 19px;">Click at "View Purchased Plans" below, to see the list 
+          of Purchased Plans and other Details.</p>
+          <p style="color:#177ec0;margin:10px 0;" (click)="viewPlan()">View Purchased Plans</p>
+        </div>
+
+        <div class="section_one" style="padding:0 16px">
+            <h5 style="margin: 10px 0 0px;">Request History</h5>
+            <p style="font-size: 13px;
+            font-weight: 400;
+            line-height: 19px;">You can view the Appointment of history with its 
+            Details.</p>
+              <p style="color:#177ec0;margin:10px 0;" (click)="viewCurrent()">View Current Request</p>
+              <p style="color:#177ec0;margin:10px 0;" (click)="viewComplete()" >View Completed Request</p>
+              <p style="color:#177ec0;margin:10px 0;" (click)="viewSchedule()">View Scheduled Request</p>
+              <p style="color:#177ec0;margin:10px 0;" (click)="viewReject()">View Rejected Request</p>
+            </div>
+
+</ion-content>

@@ -1,0 +1,59 @@
+page-adminaccountsetting {
+    .btn-save{
+        margin: 0;
+        background: #177ec0;
+        text-transform: capitalize;
+        height: 40px;
+        border-radius: 3px;
+    }
+    .btn-save:hover{
+        background: #177ec0 !important;
+    }
+    .toolbar-background{
+        background: #177ec0;
+    }
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+        color: #fff;
+        background-color: transparent;
+    }
+    .toolbar-title-md {
+        color: #fff;
+        text-transform: capitalize;
+    }
+    .bar-button-default-ios, .bar-button-clear-ios-default, .bar-button-ios-default {
+        color: #fff;
+        background-color: transparent;
+    }
+    .toolbar-title-ios {
+        color: #fff;
+        text-transform: capitalize;
+    }
+    .fild-input {
+        width: 100%;
+        padding: 10px 20px;
+        border: 1px solid #ccc;
+        border-radius: 50px;
+        margin: 16px 16px 0 auto;
+        display: block;
+        text-transform: capitalize;
+    }
+    .content{
+        background-color: #f3f1f2;
+    }
+    .img60{
+        display: block;
+    margin: 0 auto;
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 2px solid #177ec0;
+    }
+    ion-title{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 12px;
+        text-align: center;
+      }
+}

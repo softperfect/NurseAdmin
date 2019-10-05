@@ -1,0 +1,36 @@
+<!--
+  Generated template for the ElectronicnotesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Electronic Notes</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+    <p class="para_p"> Electronic Notes enables us to provide daily notes to your physician and your family. Please share the contact details of the respective persons so that we can get in touch with them. 
+      </p>
+
+      <p style="    color: #177ec0;
+      margin-left: 16px;">  <ion-icon name="briefcase" class="brif"></ion-icon>Recipent</p>
+      <ion-list radio-group [(ngModel)]="relationship">
+          <ion-item>
+              <ion-radio value="value1" checked></ion-radio>
+            <ion-label>Shawn Taylor<br>225-974-3214<br>Shawn@gmail.com</ion-label>
+           
+          </ion-item>
+          <ion-item>
+              <ion-radio value="value2"></ion-radio>
+            <ion-label>Dennis Williams<br>225-954-3214<br>Dennisgmail.com</ion-label>
+            
+          </ion-item>
+
+        </ion-list>
+      
+</ion-content>

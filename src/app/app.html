@@ -1,0 +1,110 @@
+<ion-menu [content]="content"  id="menu1" [swipeEnabled]="false">
+    <ion-content class="bg-sides">
+
+        <div class="profile-design">
+           <img src={{nursePic?nursePic:defaultadminpic}} style="    width: 100px;
+           height: 100px;">
+            <ion-icon name="create" menuClose > </ion-icon>
+            <h3>{{nurseName?nurseName:defaultname}}</h3>
+        </div>
+        
+              <button menuClose (click)="hoMe()" class="btn"><ion-icon name="home"></ion-icon> Home</button>
+        
+              <button menuClose   (click)="requestHist()" class="btn">   <ion-icon name="refresh"></ion-icon> Request History </button>
+        
+              <!-- <button menuClose  (click)="serviceNurse()" class="btn">  <ion-icon name="browsers"></ion-icon> Services </button> -->
+        
+              <!-- <button menuClose   (click)="didKnow()" class="btn">  <ion-icon name="chatbubbles"></ion-icon> Did You Know </button>
+        
+              <button menuClose  (click)="pricingPlans()" class="btn">  <ion-icon name="pricetags"></ion-icon> Pricing Plans </button> -->
+              <!-- <button menuClose  (click)="aboutus()" class="btn">  <ion-icon name="contact"></ion-icon> About Us </button> -->
+        
+              <button menuClose  (click)="setTings()" class="btn">  <ion-icon name="settings"></ion-icon> Settings </button>
+        
+              <button menuClose  class="btn" style="border-bottom: 0" (click)="Logout()"> <ion-icon name="log-in"></ion-icon> Logout </button>
+          </ion-content>
+</ion-menu>
+
+
+
+<ion-menu [content]="content"  id="menu2" [swipeEnabled]="false">
+    <ion-content class="bg-sides">
+
+        <div class="profile-design">
+           <img src={{userP?userP:defaultadminpic}} style="    width: 100px;
+           height: 100px;">
+            <ion-icon name="create" menuClose (click)="adminProfile()" > </ion-icon>
+            <h3>{{admin_name?admin_name:defaultname}}</h3>
+        </div>
+        
+              <button menuClose  class="btn" (click)="AllUser()"><ion-icon name="people"></ion-icon> All Users</button>
+        
+              <button menuClose   class="btn" (click)="AllNurse()">   <ion-icon name="medkit"></ion-icon>All Nurses</button>
+        
+              <!-- <button menuClose   class="btn" (click)="adminService()">  <ion-icon name="checkmark"></ion-icon> Services </button> -->
+        
+              <button menuClose    class="btn" (click)="adminPricing()">  <ion-icon name="pricetag"></ion-icon>Pricing Plans</button>
+        
+              <!-- <button menuClose   class="btn" (click)="adminDidknow()">  <ion-icon name="help"></ion-icon>Did You Know</button> -->
+              <!-- <button menuClose   class="btn" (click)="adminInbox()">  <ion-icon name="chatboxes"></ion-icon>Inbox</button> -->
+        
+              <button menuClose   class="btn" (click)="adminSetting()">  <ion-icon name="settings"></ion-icon> Settings </button>
+        
+              <button menuClose  class="btn" style="border-bottom: 0" (click)="Logout()" > <ion-icon name="log-in"></ion-icon> Logout </button>
+          </ion-content>
+</ion-menu>
+
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<style>
+     .bg-sides{
+        background-color: #f6f7fb;
+
+    }
+    .profile-design img{
+        display: block;
+        margin:  0 auto;
+        border: 3px solid #177ec0;
+        border-radius: 100%;
+    }
+    .profile-design{
+        padding: 30px;
+        position: relative;
+    }
+    .profile-design  ion-icon{
+        position: absolute;
+        top: 41px;
+        right: 5em;
+        background-color: #177ec0;
+        color: #fff;
+        padding: 6px 7px;
+        border-radius: 100%;
+    }
+    .profile-design h3{
+        text-align: center;
+        font-size: 17px;
+        font-weight: 500;
+        color: #177ec0;
+    }
+    button{
+        width: 100%;
+        padding: 11px 15px;
+        text-align: left;
+        margin-bottom: 8px;
+        background-color: #fff;
+        border-top: 1px solid #ececec;
+        border-bottom: 1px solid #ececec;
+        color: #177ec0;
+        font-size: 14px;
+
+    }
+    button:hover,button:focus{
+        background-color: #177ec0;
+        color: #fff;
+    }
+    button ion-icon{
+        margin-right: 10px;
+        font-size: 23px;
+    }
+</style>

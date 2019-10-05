@@ -1,0 +1,189 @@
+page-nursesignup {
+    .bg-1{
+      background-image: url(../assets/imgs/signup_bg.png);
+      width: 100%;
+      background-size:cover;
+      padding: 16% 0;
+      background-repeat: no-repeat;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      background-attachment: fixed;
+      }
+      .bg-2{
+        background-image: url(../assets/imgs/sign2.png);
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 16% 0;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        right: -359px;
+        top: 0;
+        background-attachment: fixed;
+        position: absolute;
+      }
+      .toolbar-background{
+        background-color: #177ec0;
+        color: #ffff;
+      }
+      .toolbar-title{
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center
+      }
+      .toolbar-md{
+        min-height: 50px;
+      }
+        .img-logo{
+          margin: 0 auto;
+          display: block;
+          width: 35%;
+        }
+        input{
+          padding: 13px 10px;
+          border-radius: 8px;
+          width: 85%;
+          font-size: 12px;
+          margin: 10px auto;
+          display: block;
+          border: none;
+          background: #fff;
+        }
+        ion-select{
+          display: block;
+        }
+        .select-md {
+          padding: 0 !important;
+          margin-right: 15px;
+      }
+      .cat{
+        width: 85%;
+        display: block;
+        margin: 10px auto;
+        border-radius: 8px;
+        font-size: 13px;
+      }
+        .date{
+          padding: 0px 10px;
+          border-radius: 8px;
+          width: 85%;
+          font-size: 13px;
+          margin: 10px auto;
+          display: block;
+          border: none;
+          background: #fff;
+        }
+        .desin1{
+          margin-top:30px;
+          width: 100%;
+        }
+        .forgot{
+          background: none;
+          box-shadow: none;
+          padding: 0;
+          margin: 0;
+          color: #000;
+          font-size: 11px;
+        }
+        .text-center{
+          text-align: right;
+        }
+        .btn-login{
+          background-color: #458fd0;
+          border-radius: 5px;
+          height: 40px;
+          text-transform: capitalize;
+          width: 85%;
+          margin: 5px auto;
+          // opacity: 1;
+        }
+       
+       
+        .label-md,.label-ios{
+          font-size: 14px;
+        }
+        .item-md, .item-ios{
+         padding-left: 0px;
+        }
+        .input-wrapper{
+          // border: 1px solid #ccc;
+          padding: 0px 10px;
+        }
+        .item.item-block .item-inner {
+          // padding-right: 8px;
+          border-bottom: 0 !important;
+      }
+        .datetime-md,.datetime-ios {
+          padding: 6px 8px 5px 16px;
+        }
+        .item-md.item-block .item-inner,.item-ios.item-block .item-inner{
+          padding-right: 0;
+        }
+        .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default{
+          color: #fff;
+        }
+        .errorsText p {
+          color: red;
+          font-size: 15px;
+      
+        }
+        .bar-button-default-ios, .bar-button-default.bar-button-ios-default, .bar-button-clear-ios-default{
+          color:#fff;
+        }
+      
+      
+        ion-item.item.item-block.item.item-checkbox.item-checkbox{
+          width: 85%;
+          margin: 0 auto;
+          background: transparent;
+      }
+      .item.item .checkbox {
+        position: static;
+        display: block;
+        margin: 9px;
+      }
+      a[disabled], button[disabled], [ion-button][disabled] {
+        cursor: default;
+        opacity: 1;
+        pointer-events: none;
+      }
+      
+      ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #57585a;
+        opacity: 1; /* Firefox */
+      }
+      
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #57585a;
+      }
+      
+      ::-ms-input-placeholder { /* Microsoft Edge */
+        color: #57585a;
+      }
+      
+      .btn-designss{
+        color: #fff;
+        font-size: 24px;
+        position: absolute;
+        top: 3px;
+        left: -3px;
+        padding: 10px 26px;
+        background-color: #177ec0;
+        display: none;
+      }
+      .select-md .select-icon {
+        position: absolute;
+        width: 12px;
+        height: 19px;
+        right: 12px;
+        top: 15px;
+    }
+    ion-title{
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      top: 12px;
+      text-align: center;
+    }
+}

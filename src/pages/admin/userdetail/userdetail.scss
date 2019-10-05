@@ -1,0 +1,38 @@
+page-userdetail {
+    .toolbar-background{
+        background-color: #177ec0;
+        color: #ffff;
+      }
+      .toolbar-title{
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+      }
+      .toolbar{
+        min-height: 50px;
+      }
+      .pic{
+        border-radius: 100%;
+        width: 75px;
+        height: 75px;
+        display: block;
+        margin: 0 auto;
+        object-fit: cover;
+        border: 1px solid #c7c7c7;
+      }
+      .section_one{
+          border-bottom: 1px solid #ccc;
+      }
+      .bar-button-default, .bar-button-clear-default, .bar-button-default {
+        color: #ffffff !important;
+        background-color: transparent;
+    }
+    ion-title{
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      top: 12px;
+      text-align: center;
+    }
+ 
+}

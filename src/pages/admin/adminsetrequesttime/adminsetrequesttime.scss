@@ -1,0 +1,69 @@
+page-adminsetrequesttime {
+    .toolbar-background{
+        background-color: #177ec0;
+        color:#ffff;
+    }
+    .toolbar-title{
+        color: #fff;
+    }
+    .toolbar{
+        min-height: 50px;
+    }
+    .forms-add input{
+        border: 1px solid #ccc;
+        width: 100%;
+        padding: 11px;
+        border-radius: 3px;
+        color: #000;
+        margin-bottom: 20px;
+    }
+
+    ion-item{
+        border: 1px solid #ccc !important;
+        font-size: 10px;
+        height: 39px;
+        border-radius: 3px;
+    }
+    .item-input .label-md, .item-select .label-md, .item-datetime .label-md {
+        color: #736e6e;
+        font-size: 14px;
+    }
+    .btnsss{
+        background-color: #177ec0;
+    color: #fff;
+    width: 100%;
+    padding: 11px;
+    font-size: 17px;
+    border-radius: 3px;
+    margin-top: 26px;
+    }
+    .forms-add{
+        margin: 40% 0;
+    }
+    ion-title{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 12px;
+        text-align: center;
+      }
+      ion-icon{
+          color:#fff;
+      }
+      .onddemand h3{
+        text-align: center;
+        font-size: 17px;
+        color: #177ec0;
+        margin: 5% 0 0 !important;
+       }
+        .onddemand p{
+          text-align: center;
+          line-height: 20px;
+          font-size: 14px;
+          color: #666;
+        }
+        .onddemand{
+          margin: 15px 0;
+          margin-top: 22px;
+        }
+}

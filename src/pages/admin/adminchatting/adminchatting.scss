@@ -1,0 +1,160 @@
+page-adminchatting {
+
+    .toolbar-background{
+        background-color: #177ec0;
+        color:#ffff;
+      }
+      .toolbar-title{
+        color: #fff;
+      }
+      .toolbar{
+        min-height: 50px;
+      }
+
+    .ads10{
+        position: relative;
+        padding: 7px 0;
+        clear: both;
+      }
+      .user-img{
+        position: absolute;
+        border-radius: 45px;
+        width: 45px;
+        height: 45px;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.36);right:0;
+      }
+      .msg-detail{
+        padding-right: 60px;
+      }
+      .msg-info{
+        text-align: right;
+      }
+      .msg-info p{
+        font-size: .8em;
+        color: #888;margin: 0;
+      }
+      .msg-content{
+        background-color: #177ec0;
+        float: right;
+        position: relative;
+        margin-top: 5px;
+        border-radius: 5px;
+        padding: 8px;
+        border: 1px solid #ddd;
+        color: #fff;
+        width: auto;
+        max-width: 80%;
+      }
+      .triangle{
+        border-radius: 2px;
+        height: 8px;
+        width: 8px;
+        top: 12px;
+        display: block;
+        border-style: solid;
+        border-color: #ddd;
+        border-width: 1px;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: absolute;
+        background-color: #177ec0;
+        border-bottom-width: 0;
+        border-left-width: 0;
+        right: -5px;
+      }
+      .line-breaker{
+        margin: 0;
+        font-size: 13px;
+        line-height: 17px;
+      }
+      .img-left{
+        position: absolute;
+        border-radius: 45px;
+        width: 45px;
+        height: 45px;
+        -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.36);
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.36);
+        left: 0;
+      }
+      .msg-detail-l{
+        padding-left: 60px;
+      }
+      .msg-info-l{
+        text-align: left;
+      }
+      .msg-info-l p{
+        font-size: .8em;
+        color: #888;
+        margin: 0;
+      }
+      .msg-content-l{
+        border: 1px solid #ddd;
+        float: left;
+        position: relative;
+        margin-top: 5px;
+        border-radius: 5px;
+        padding: 8px;
+        border: 1px solid #ddd;
+        color: #000;
+        width: auto;
+        max-width: 80%;
+      }
+      .triangle-l{
+        background-color: #fff;
+        border-radius: 2px;
+        height: 8px;
+        width: 8px;
+        top: 12px;
+        display: block;
+        border-style: solid;
+        border-color: #ddd;
+        border-width: 1px;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: absolute;
+        border-top-width: 0;
+        border-right-width: 0;
+        left: -5px;
+      }
+      .textbar-write textarea{
+        width: 100%;
+        resize: none;
+        height: 41px;
+        padding: 10px;
+        border-radius: 30px;
+      }
+    
+      .header-md::after, .tabs-md[tabsPlacement="top"] > .tabbar::after, .footer-md::before, .tabs-md[tabsPlacement="bottom"] > .tabbar::before{
+        background: none;
+      }
+      .btn-sed button{
+        background: transparent;
+        padding: 0;
+      }
+      .textbar-write input{
+       visibility: hidden;
+        position: absolute;
+      }
+      .textbar-write{
+        position: relative;
+      }
+      .textbar-write label{
+        position: absolute;
+        top: 4px;
+        right: 15px;
+        padding: 9px 15px;
+        -webkit-transform: rotate(20deg);
+        transform: rotate(-34deg);
+        width: 20px;
+        height: 20px;
+        font-size: 18px;
+        color: #988787;
+      }
+      ion-title{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 12px;
+        text-align: center;
+      }
+}

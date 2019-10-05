@@ -1,0 +1,32 @@
+page-authorizeperson {
+    .toolbar-background-md{
+        background-color: #177ec0;
+        color: #ffff;
+      }
+      .toolbar-title-md{
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+      }
+      .toolbar-md{
+        min-height: 50px;
+      }
+      .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+        color: #ffffff !important;
+        background-color: transparent;
+    }
+    .nodata{
+      margin-top: 50%;
+      display: none;
+  }
+  .gayab{
+    display: none;
+  }
+  ion-title{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 12px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,39 @@
+page-requesthistory {
+    .toolbar-background-md{
+        background-color: #177ec0;
+        color: #ffff;
+      }
+      .toolbar-title-md{
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+      }
+      .toolbar-md{
+        min-height: 50px;
+      }
+      .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+        color: #ffffff;
+        background-color: transparent;
+    }
+    .bt{
+      border: 1px solid #177ec0;
+      border-radius: 15px;
+      font-size: 13px;
+      height: 35px;
+      text-transform: capitalize;
+      margin: 20px 0;
+      color: #177ec0;
+    }
+    .btn_group{
+      width: 65%;
+      margin: 22% auto;
+    }
+    ion-title{
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      top: 12px;
+      text-align: center;
+    }
+}

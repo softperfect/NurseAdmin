@@ -1,0 +1,31 @@
+<!--
+  Generated template for the AdminsetrequesttimePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Nursing on Demand</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div class="onddemand">
+    <h3 style="text-align: center">What time would you like your visit?</h3>
+     
+   </div>
+   <form [formGroup]="authForm" >
+<div class="forms-add" [ngClass]="{'error-border':!authForm.controls.visit_type.valid && authForm.controls.visit_type.touched}">
+
+    <input type="text" placeholder="Add Visit Type"  formControlName="visit_type">
+
+</div>
+<button class="btnsss" (click)="save(authForm.value)">Save</button>
+</form>
+   
+ 
+</ion-content>

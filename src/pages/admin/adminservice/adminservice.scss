@@ -1,0 +1,73 @@
+page-adminservice {
+    .toolbar-background{
+        background-color: #177ec0;
+        color:#ffff;
+      }
+      .toolbar-title{
+        color: #fff;
+        text-align: center;
+      }
+      .toolbar{
+        min-height: 50px;
+      }
+      .bar-button-default, .bar-button-clear-default, .bar-button-default{
+        color: #fff;
+      }
+      .Titile{
+        font-size: 18px;
+        text-align: left;
+        color: #177ec0;
+        margin-bottom: 9px;
+        margin-top: 31px;
+        margin-left: 13px;
+      }   
+      .para_p{
+        width: 91%;
+        margin: 0 auto;
+        font-size: 14px;
+        text-align: left;
+        line-height: 28px;
+        color: #3c3636;
+    
+      }   
+      a{
+        text-align: center;
+        display: block;
+        margin: 10px 0;
+        color: #1171af;
+        padding-bottom: 20px;
+        font-weight: 600;
+      }
+  
+  ion-content{
+    background-color: #f6f7fb !important;
+  }
+  .viewService:hover{
+    color: #1171af !important;
+    opacity: 1 !important;
+  }
+  .viewService{
+    text-align: center;
+    font-size: 15px;
+    color: #177ec0;
+    padding-bottom: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  [title="s1"] {
+   border-bottom: 9px solid #fff;
+}
+.bar-button-default:hover:not(.disable-hover), .bar-button-clear-default:hover:not(.disable-hover), .bar-button-default:hover:not(.disable-hover){
+    color:#fff;
+}
+.border-ds .border30:last-child {
+ border-top: 5px solid #fff;
+}
+ion-title{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 12px;
+  text-align: center;
+}
+}

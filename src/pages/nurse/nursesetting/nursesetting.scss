@@ -1,0 +1,53 @@
+page-nursesetting {
+
+    .toolbar-background{
+        background-color: #177ec0;
+        color:#ffff;
+      }
+  ion-content{
+    background-color: #f6f7fb !important;
+  }
+      .toolbar-title{
+        color: #fff;
+      }
+    .toolbar{
+        min-height: 50px;
+      }
+      .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default{
+        color: #fff;
+      }
+    .label{
+      margin: 8px 0 8px 0 !important;
+      cursor: pointer;
+    }
+    
+     .menu_setting{
+       font-size: 15px;
+       margin-top: 5px;
+       position: absolute;
+       left: 46px;
+       font-weight: 500;
+       color: #177ec0;
+     }
+     span.button-inner{
+       color:#fff;
+     }
+     ion-icon.back-button-icon.icon.icon-ios.back-button-icon-ios.ion-ios-arrow-back {
+      color: #fff;
+    }
+    .list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block{
+      border:0 !important;
+    }
+    .setting_pic{
+      height: 18px;
+      width: 18px;
+      margin-top: 6px;
+    }
+    ion-title{
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      top: 12px;
+      text-align: center;
+    }
+}

@@ -1,0 +1,92 @@
+<!--
+  Generated template for the NurseaddionaldetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Additional Details</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+    <ion-row class="manage-r">
+        <ion-col col-2>
+        <img src="assets/imgs/ambulance.png">
+        </ion-col>
+     
+        <ion-col col-10>
+        <h3>Visit Type </h3>
+          <p>{{requestdata.visitType}}</p>
+        </ion-col>
+     
+       </ion-row>
+     
+       <ion-row class="manage-r">
+         <ion-col col-2>
+           <img src="assets/imgs/femenine.png">
+         </ion-col>
+     
+         <ion-col col-10>
+           <h3>Gender of person needing care </h3>
+           <p>{{requestdata.careGender}}</p>
+         </ion-col>
+     
+       </ion-row>
+     
+       <ion-row class="manage-r">
+         <ion-col col-2>
+           <img src="assets/imgs/tick.png">
+         </ion-col>
+     
+         <ion-col col-10>
+           <h3>Have you recently been discharge from medical facility? </h3>
+           <p>{{requestdata.medical_facility}}</p>
+         </ion-col>
+     
+       </ion-row>
+     
+     
+       <ion-row class="manage-r">
+         <ion-col col-2>
+           <img src="assets/imgs/document.png">
+         </ion-col>
+     
+         <ion-col col-10>
+           <h3>Do you have doctors orders provided?</h3>
+           <p>{{requestdata.order_provided}}</p>
+         </ion-col>
+     
+       </ion-row>
+     
+       <ion-row class="manage-r">
+         <ion-col col-2>
+           <img src="assets/imgs/a5.png">
+         </ion-col>
+     
+         <ion-col col-10>
+           <h3>Needs</h3>
+           <p>{{requestdata.need_message}}</p>
+         </ion-col>
+     
+       </ion-row>
+     
+     
+       <ion-row class="manage-r" style="border:none;">
+         <ion-col col-2>
+           <img src="assets/imgs/drawing-tablet.png">
+         </ion-col>
+     
+         <ion-col col-10>
+           <h3>Details of person needing care</h3>
+           <p>  <ion-icon name="locate"></ion-icon> {{requestdata.address}}</p>
+           <p> <ion-icon name="call"></ion-icon>{{requestdata.phone}}</p>
+         </ion-col>
+     
+       </ion-row>
+</ion-content>
+

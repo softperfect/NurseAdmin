@@ -1,0 +1,136 @@
+page-adminrequest {
+    .toolbar-background{
+        background-color: #177ec0;
+        color:#ffff;
+      }
+  ion-content{
+    background-color: #f6f7fb !important;
+  }
+  .toolbar-title{
+  color:#fff;
+  }
+    
+      .onddemand h3{
+       text-align: center;
+       font-size: 17px;
+       color: #177ec0;
+       margin: 5% 0 0 !important;
+      }
+       .onddemand p{
+         text-align: center;
+         line-height: 20px;
+         font-size: 14px;
+         color: #666;
+       }
+       .onddemand{
+         margin: 15px 0;
+         margin-top: 22px;
+       }
+       .list-md .item-block .item-inner{
+         border: none;
+       }
+       .input-wrapper{
+         font-size: 15px;
+       }
+       .btn-next:hover{
+         background: #177ec0;
+       }
+       .btn-next{
+     
+         border-radius: 5px;
+         height: 40px;
+         text-transform: capitalize;
+         width: 85%;
+         margin: 10px auto;
+         margin-top: 40px;
+       }
+      
+       .bar-button-default, .bar-button-clear-default, .bar-button-default{
+         color: #fff;
+       }
+       .toolbar-ios ion-title{
+         padding: 0;
+       }
+       .list-ios .item-block .item-inner {
+         border-bottom: 0;
+     }
+     .list-ios > .item-block:first-child{
+       border:none !important;
+     }
+     .list-ios > .item-block:last-child{
+       border:none !important;
+     }
+     .radio-ios .radio-icon {
+       position: relative;
+       display: block;
+       width: 21px;
+       height: 21px;
+       border-radius: 100%;
+       border: 2px solid #848383;
+     }
+       .but_phone{
+         color: #fff;
+         font-size: 20px;
+         background: blue;
+         border: 2px solid #000;
+         height: 80px;
+         font-weight: 700;
+         margin-top: 40px;
+       }
+      .item-md .radio-md {
+        display: block;
+       top:5px;
+        position: absolute;
+        left: 4px;
+        right: 0;
+        margin-right: 10px;
+      }
+      .item-radio.item-md ion-label {
+        margin-left: 22px;
+        font-size: 16px;
+        color: #4e4d4d;
+        font-weight: 500;
+      }
+      .radio-design{
+        margin-left: 23%;
+      }
+      .radio-md .radio-inner{
+        background-color: #6bc259;
+      }
+      .radio-md .radio-checked{
+        border-color: #6bc259;
+      }
+      .item-md{
+        background-color: transparent;
+      }
+      .bar-button-default-md:hover:not(.disable-hover), .bar-button-clear-md-default:hover:not(.disable-hover), .bar-button-md-default:hover:not(.disable-hover){
+          color:#fff;
+      }
+
+      .setting30{
+        position: absolute;
+        right: 12px;
+        top: 15px;
+      }
+      .setting30 button{
+        background-color: transparent;
+        color: #fff;
+        font-size: 19px;
+      }
+      ion-title{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 12px;
+        text-align: center;
+      }
+      .trash{
+        color: red;
+        margin-left: 14px;
+        position: absolute;
+        right: 42px;
+        z-index: 117;
+        display: none;
+      }
+    
+}

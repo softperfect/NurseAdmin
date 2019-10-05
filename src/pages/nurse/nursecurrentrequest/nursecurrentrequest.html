@@ -1,0 +1,87 @@
+<!--
+  Generated template for the NursecurrentrequestPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Current Request</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+  <div class="gayab" >
+    <ion-row >
+        <ion-col col-3>
+        <img class="userPic" src={{userPic}}>
+        </ion-col>
+  
+       <ion-col col-9>
+          <h2 class="name1">{{userName}}</h2>
+           <p class="time10">{{requestTime | date}} {{requestTime | date:'shortTime'}}</p>
+           <p class="time10" style="color:#177ec0">{{requestid}}</p>
+         </ion-col>
+ 
+  
+       </ion-row>
+  <div class="btn_group">
+      <button ion-button class="bbtn" clear (click)="closeRequest(currentdata[0].id)"> 
+          Close Request
+        </button>
+    <button ion-button class="bbtn" clear (click)="viewDirection()"> 
+      View Location
+    </button>
+    <button ion-button class="bbtn" clear (click)="AdditionDetails()">
+        Additional details
+      </button>
+    </div>
+    <div class="other">
+      Other Details
+    </div>
+    <div padding class="box_txt">
+      <ion-row>
+        <ion-col col-1>
+          <img src="assets/imgs/user.png">
+        </ion-col>
+        <ion-col col-5>
+          Who Needs Care
+        </ion-col>
+        <ion-col col-6>
+         {{carePerson}}
+        </ion-col>
+      </ion-row>
+      <ion-row>
+          <ion-col col-1>
+            <img src="assets/imgs/service.png">
+          </ion-col>
+          <ion-col col-5>
+           Service Type
+          </ion-col>
+          <ion-col col-6>
+           {{serviceType}}
+          </ion-col>
+        </ion-row>
+
+   
+    
+          <ion-row>
+            </ion-row>
+    </div>
+  
+    <div class="other">
+        Services
+      </div>
+    <div *ngFor="let ser of services" > 
+        
+      <span class="serv"></span><p class="sg">{{ser}}</p>
+     
+    </div>
+  </div>
+    <div class="nodata">
+      <h2 style="text-align: center;font-size: 19px;color: #a79999;">No  Current Request Found !</h2>
+      </div>
+</ion-content>

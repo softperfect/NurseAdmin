@@ -1,0 +1,46 @@
+page-adminratenursing {
+    .ratenursingimg{
+        height: 60px;    
+        width: 60px;
+        margin-left: 30px;
+        margin-top: 6px;
+    }
+    h6.ratenursingheading {
+        font-size: 12px;
+        padding: 10px 0px 0px 30px;
+        color: blue;
+        text-align: center;
+    }    
+    h6.ratenursingheading a{
+        text-decoration: none; 
+    }
+    .ratenursingicon{
+        text-align: center;
+        padding: 24px 0px 0px 50px;
+        color:red;
+    }
+      .toolbar-background{
+        background-color: #177ec0;
+        color:#ffff;
+      }
+      .toolbar-title{
+        color: #fff;
+      }
+      .toolbar{
+        min-height: 50px;
+      }
+      .adminratenursingunderline{
+          width: 100%;
+      }
+      ion-title{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 12px;
+        text-align: center;
+      }
+      ion-icon{
+          color:#fff;
+          font-size: 20px;
+      }
+}

@@ -1,0 +1,101 @@
+page-adminelectronicn {
+    .toolbar-background-md{
+        background-color: #177ec0;
+        color: #ffff;
+      }
+      .toolbar-title-md{
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+      }
+      .toolbar-md{
+        min-height: 50px;
+      }
+      .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+        color: #ffffff;
+        background-color: transparent;
+    }
+    .bar-button-default-md:hover, .bar-button-clear-md-default:hover, .bar-button-md-default:hover{
+        color: #ffffff !important;
+    }
+    .searchbar-md {
+        background: #177ec0;
+        padding: 8px;
+        margin-top: 6px;
+    }
+    .searchbar-md .searchbar-input{
+        border-radius: 15px !important;
+    }
+  .img-m img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  .content-des h2{
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+    margin: 0;
+  }
+  .content-des p{
+    color: #777575;
+    margin: 3px 0;
+    font-size: 13px;
+
+  }
+  .content-des h3{
+    color: #177ec0;
+    margin: 0;
+    font-size: 14px;
+  }
+  .box50{
+    padding: 5px 7px;
+    border-bottom: 1px solid #d2cfcf;
+  }
+  .content-des button{
+    background-color: transparent;
+    color: #E51C23;
+    font-weight: 400;
+    padding: 10px 6px 0;
+  }
+
+  .modal1{
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    display: none;
+  }
+  .white-boxs{
+    background-color: #fff;
+    padding: 27px 10px;
+    position: absolute;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 6px;
+    text-align: center;
+    top: 31%;
+  }
+  .white-boxs p{
+    text-align: center;
+    font-size: 16px;
+  }
+  .white-boxs button{
+    background-color: #177ec0;
+    color: #fff;
+    padding: 10px 42px;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-top: 14px;
+  }
+  ion-title{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 12px;
+    text-align: center;
+  }
+}

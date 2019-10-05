@@ -1,0 +1,48 @@
+page-getdirection {
+    .toolbar-background{
+        background-color: #177ec0;
+        color: #ffff;
+      }
+      .toolbar-title{
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+      }
+      .toolbar{
+        min-height: 50px;
+      }
+      .km{
+        background-color: #177ec0;
+        color: #fff;
+        padding: 5px 0;
+        font-size: 12px;
+      }
+      .nursepic{
+        width: 105px;
+        height: 105px;
+        padding: 5px;
+      }
+      .com{
+          font-size:12px;
+      }
+      .bar-button-default, .bar-button-clear-default, .bar-button-default {
+        color: #ffffff;
+        background-color: transparent;
+    }
+    .bar-button-default:hover, .bar-button-clear-default:hover, .bar-button-default:hover {
+      color: #ffffff !important;
+      background-color: transparent;
+  }
+  .map {
+    width: 100%;
+    height: 400px !important;
+  }
+  ion-title{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 12px;
+    text-align: center;
+  }
+}

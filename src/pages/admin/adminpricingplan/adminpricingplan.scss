@@ -1,0 +1,201 @@
+page-adminpricingplan {
+    .toolbar-background{
+        background-color: #177ec0;
+        color:#ffff;
+      }
+  ion-content{
+    background-color: #f6f7fb !important;
+  }
+      .toolbar-title{
+        color: #fff;
+      }
+    .toolbar{
+        min-height: 50px;
+      }
+      .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default{
+        color: #fff;
+      }
+    .toolbar-title{
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+      }
+      .toolbar{
+        min-height: 50px;
+      }
+      .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default{
+        color: #fff;
+      }
+      .segment-md .segment-button{
+        text-transform: inherit;
+        font-size: 14px;
+      }
+      .bg-pricing h3{
+        font-size: 12px;
+        margin: 0;
+        color: #fff;
+        font-weight: 400;
+      }
+      .bg-pricing{
+        background-color: #009688;
+        width: 100%;
+        padding: 6px 10px;
+        margin-bottom: 2px;
+      }
+      .pricing-d p{
+        font-size: 12px;
+        margin: 0;
+        text-align: center;
+        display: table;
+        margin-bottom: 8px;
+      }
+      .btn-buy{
+        width: 100%;
+        margin-top: 10px;
+      }
+      .btn-buy button{
+        background-color: transparent;
+        border-color: #E51C23;
+        border: 1px solid #E51C23;
+        padding: 8px 65px;
+        border-radius: 30px;
+        font-size: 17px;
+        font-weight: 500;
+        color: #E51C23;
+        margin-bottom:17px;
+      }
+      .pricing-d h6{
+        font-size: 13px;
+        line-height: 18px;
+        color: #5c5858;
+      }
+      .pricing-d ul{
+        list-style: none;
+        padding: 0;
+      }
+      .pricing-d ul li{
+        font-size: 12px;
+        margin: 0;
+        width: 100%;
+        display: table;
+        margin-bottom: 12px;
+      }
+      .pricing-d ul li span{
+        text-align: right;
+        float: right;
+      }
+      button.back-button.disable-hover.bar-button.bar-button-ios.back-button-ios.bar-button-default.bar-button-default-ios.show-back-button{
+        color:#fff;
+      }
+      .pricing_details{
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px 0 0;
+      }
+      ion-content {
+        color: #000;
+        background-color: #f6f7fb !important;
+    }
+    .pricing_heading{
+      margin-top: 0;
+      font-size: 1.4rem;
+      margin-left: 15px;
+      color: #177ec0;
+    }
+    .list_para{
+      list-style-type: none;
+      color: #65676ded;
+      line-height: 22px;
+      font-size: 13px;
+    }
+    .buy_btn{
+      width: 80%;
+      background-color: #177ec0;
+      margin: 0 auto;
+      text-align: center;
+      display: block;
+      border-radius: 5px;
+      height: 41px;
+      font-size: 17px;
+      text-transform: capitalize;
+    }
+    .buy_btn:hover{
+      background-color: #177ec0 !important; 
+    }
+      .price_box1 {
+        background: #fff;
+        padding: 10px 0;
+        margin: 10px 0;
+      }
+      .button-group {
+        .col {
+          &:first-child:not(:last-child) {
+            padding: 0;
+            .button {
+              border-top-right-radius: 0;
+              border-bottom-right-radius: 0;
+            }
+          }
+          &:not(:first-child):not(:last-child) {
+           padding:0;
+            .button {
+              border-radius: 0;
+            }
+          }
+          &:last-child:not(:first-child) {
+            padding: 0;
+            .button {
+              border-top-left-radius: 0;
+              border-bottom-left-radius: 0;
+            }
+          }
+        }
+      }
+      .btn{
+        font-size: 12px;
+        text-transform: capitalize;
+        background-color: #177ec0;
+      }
+      .ic{
+        padding: 5px;
+      }
+      .button-md:hover:not(.disable-hover) {
+        background-color: #177ec0;
+    }
+
+    .price_box1 button{
+      background-color: #177ec0;
+      color: #fff;
+      border-radius: 30px;
+      padding: 0px 3px;
+    }
+    .price_box1 span{
+      margin-right: 11px;
+      //margin-top: -7px;
+      float: right; 
+    }
+    .editbtn{
+      display: none;
+    }
+    .deletebtn button{
+      background-color: red;
+    }
+    .deletebtn{
+      margin-right: 11px;
+      margin-top: -7px;
+      float: right; 
+      display: none;
+    }
+
+    ion-title{
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      top: 12px;
+      text-align: center;
+    }
+    .rmv{
+     font-size: 10px;
+    }
+}

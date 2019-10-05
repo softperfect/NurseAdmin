@@ -1,0 +1,7 @@
+{
+  "name": "Nursingadmin",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

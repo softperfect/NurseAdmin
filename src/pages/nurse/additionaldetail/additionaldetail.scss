@@ -1,0 +1,57 @@
+page-additionaldetail {
+    .toolbar-background{
+        background-color: #177ec0;
+        color: #ffff;
+      }
+      .toolbar-title{
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+      }
+      .toolbar{
+        min-height: 50px;
+      }
+      ion-content{
+        background-color: #f6f7fb !important;
+      }
+      .toolbar{
+        min-height: 50px;
+      }
+      .bar-button-default, .bar-button-clear-default, .bar-button-default{
+        color: #fff;
+      }
+      .segment .segment-button{
+        text-transform: inherit;
+        font-size: 14px;
+      }
+      .manage-r h3{
+        margin: 0;
+        color: #0372b7;
+        font-size: 13px;
+      }
+      .manage-r p{
+        margin: 0;
+        color: #524d4d;
+        margin-top:6px;
+        font-size: 13px;
+        line-height: 21px;
+      }
+      .manage-r{
+        border-bottom: 6px solid #ffffff;
+        padding: 10px 10px 1px 10px;
+      }
+      button.back-button.disable-hover.bar-button.bar-button-ios.back-button-ios.bar-button-default.bar-button-default-ios.show-back-button{
+        color:#fff;
+      }
+      .bar-button-default:hover:not(.disable-hover), .bar-button-clear-default:hover:not(.disable-hover), .bar-button-default:hover:not(.disable-hover){
+        color:#fff;
+      }
+      ion-title{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 12px;
+        text-align: center;
+      }
+}

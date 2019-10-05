@@ -1,0 +1,53 @@
+page-peronalservice {
+    .toolbar-background{
+        background-color: #177ec0;
+        color:#ffff;
+      }
+  ion-content{
+    background-color: #f6f7fb !important;
+  }
+      .toolbar-title{
+        color: #fff;
+      }
+      .toolbar{
+        min-height: 50px;
+      }
+      .bar-button-default, .bar-button-clear-default, .bar-button-default{
+        color: #fff;
+      }
+      .toolbar-title.toolbar-title-ios {
+        white-space: normal !important;
+        padding: 20px 0 0 0 !important;
+        
+    }
+    .toolbar-ios ion-title{
+        padding: 0 !important;
+    }
+    .toolbar-title.toolbar-title-ios {
+        padding: 20px 0 0 0;
+    }
+  li{
+    margin-bottom: 10px;
+    color: #544d4d;
+    font-size: 13px;
+    line-height: 21px;
+    list-style: none;
+    position: relative;
+  }
+  .doti{
+    background-color: #707070;
+    border-radius: 100%;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    left: -24px;
+    top: 6px;
+  }
+  ion-title{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 12px;
+    text-align: center;
+  }
+}

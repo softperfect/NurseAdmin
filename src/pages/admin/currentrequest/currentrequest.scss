@@ -1,0 +1,214 @@
+page-currentrequest {
+    .toolbar-background{
+        background-color: #177ec0;
+        color: #ffff;
+      }
+      .toolbar-title{
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+      }
+      .toolbar{
+        min-height: 50px;
+      }
+    .name-desgin p{
+        margin: 0;
+        color: #3F51B5;
+        font-size: 13px;
+        margin-bottom: 5px;
+        text-align: left;
+      }
+      .margin20{
+        margin: 8px 0px 40px;
+      }
+      .requestCare{
+        position: fixed;
+        bottom: 0;
+        z-index: 9999999;
+      }
+    
+      .bar-button-default, .bar-button-clear-default, .bar-button-default{
+        color: #fff;
+      }
+      .toolbar-title.toolbar-title-ios {
+        white-space: normal !important;
+        padding: 20px 0 0 0 !important;
+        
+    }
+    .toolbar-ios ion-title{
+        padding: 0 !important;
+    }
+    .toolbar-title.toolbar-title-ios {
+        padding: 20px 0 0 0;
+    }
+    .header_icon{
+      float: right;
+      color:#fff;
+    }
+    .header_icon icon{
+          padding: 8px;
+    }
+    ul {
+      padding: 0px;
+      margin: 0;
+    
+      &.rating li {
+        padding: 5px 0px !important;
+        background: none;
+        color: #ffb400;
+        text-align: left;
+    
+        ion-icon {
+          font-size: 14px;
+          text-align: left;
+        }
+      }
+    }
+    .next_btn{
+      float: right;
+      position: relative;
+      top: -13px;
+    }
+    .swiper-container {
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+      position: relative;
+      z-index: 1;
+      display: flex;
+      overflow: hidden;
+      width: 100%;
+      height: auto;
+      bottom: 0;
+    }
+    ion-slides {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .btn{
+      width: 70%;
+        margin: 10px auto;
+        display: block;
+        border-radius: 5px;
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 20px;
+    }
+    .box_txt{
+      font-size: 14px;
+      color: #707070;
+    }
+    .serv{
+      position: absolute;
+      content: "";
+      width: 8px;
+      height: 8px;
+      background: #707070;
+      border-radius: 100%;
+      margin-left: 13px;
+      margin-top: 8px;
+    }
+    ion-label{
+      white-space: normal !important;
+    }
+    .sg{
+        display: inline-block;
+        width: 98%;
+        margin: 3px 0px 3px 30px;
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .content {
+      color: #000;
+      background-color: #f6f7fb;
+    }
+    .view{
+      color: #177ec0;
+      text-align: center;
+      display: block;
+    }
+    .view:hover{
+      color:#177ec0;
+      opacity: 1;
+    }
+    .question{
+      position: absolute;
+        right: 6%;
+        top: 10%;
+        cursor: pointer;
+    }
+    .question-popup {
+      background: #fff;
+      width: 60%;
+      position: absolute;
+      z-index: 999;
+      padding: 14px;
+      top: 12%;
+      right: 14%;
+      border-radius: 5px;
+      box-shadow: 0 0 5px;
+      color: #666;
+      display: none;
+    }
+    .close{
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      cursor: pointer;
+    }
+    .btn_group{
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        padding: 15px 0;  
+
+    }
+    .bbtn{
+        width: 43%;
+        font-size: 12px;
+        border-radius: 15px;
+        height: 25px;
+        border: 1px solid #177ec0;
+        text-transform: capitalize;
+        margin: 0 5px;
+        color: #707070;
+    }
+    .other{
+        background-color: #177ec0;
+        text-align: center;
+        padding: 2px 0;
+        color: #fff;
+        font-size: 12px;
+    }
+    .name1{
+        margin: 0;
+        font-size: 15px;
+        color: #565050;
+        margin-top: 5px;
+      }
+      .time10{
+        margin: 3px 0;
+        color: #565050;
+        font-size: 13px;
+      }
+      ion-row{
+          font-size:13px;
+      }
+      .nodata{
+        margin-top: 50%;
+        display: none;
+      }
+      .gayab{
+        display:none;
+      }
+      ion-title{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 12px;
+        text-align: center;
+      }
+}

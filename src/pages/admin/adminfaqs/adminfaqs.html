@@ -1,0 +1,71 @@
+<!--
+  Generated template for the AdminfaqsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+    <ion-navbar>
+      
+      <ion-title>FAQ's</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  
+  <ion-content padding>
+   <h5>Questions You May Have</h5>
+   <div style="text-align: center">
+    <button ion-button class="fq_btn"(click)="adminReset()">How do i change or reset my password?</button>
+    <button ion-button class="fq_btn" (click)="shareApp()">How can i share this app with my friends?</button>
+    <button ion-button class="fq_btn" (click)="unableLogin()">I cant login</button>
+    <button ion-button class="fq_btn" (click)="notreceiving()">I'm Not Receiving email to reset password my password</button>
+    <button ion-button class="fq_btn" (click)="logoutfrom()">How do i log out from Nursing on Demand app</button>
+   </div>
+  
+  
+  
+    <h5 style="margin-top:30px;">Popular Topics</h5>
+    
+    
+    <ion-slides  slidesPerView="2" style="height: auto !important;" loop="true">
+      <ion-slide style="    border: 1px solid rgb(204, 204, 204);
+      border-radius: 10px;
+      width: 100%;
+      margin: 3px;
+      max-width: 158px;height: 160px;">
+       <img src="assets/imgs/user_login.png">
+       <span class="abt">About</span>
+       <p class="sat">Login & Password</p>
+      </ion-slide>
+      <ion-slide style=   " border: 1px solid rgb(204, 204, 204);
+      border-radius: 10px;
+      width: 100%;
+      margin: 3px;
+      max-width: 158px;height: 160px;">
+        <img src="assets/imgs/user_settings.png">
+        <span class="abt">About</span>
+        <p class="sat">Profile Settings</p>
+      </ion-slide>
+      <ion-slide style="    border: 1px solid rgb(204, 204, 204);
+      border-radius: 10px;
+      width: 100%;
+      margin: 3px;
+      max-width: 158px;height: 160px;">
+       <img src="assets/imgs/user_login.png">
+       <span class="abt">About</span>
+       <p class="sat">Login & Password</p>
+      </ion-slide>
+      <ion-slide style=   " border: 1px solid rgb(204, 204, 204);
+      border-radius: 10px;
+      width: 100%;
+      margin: 3px;
+      max-width: 158px;height: 160px;">
+        <img src="assets/imgs/user_settings.png">
+        <span class="abt">About</span>
+        <p class="sat">Profile Settings</p>
+      </ion-slide>
+    </ion-slides>
+  
+    
+  </ion-content>
+  

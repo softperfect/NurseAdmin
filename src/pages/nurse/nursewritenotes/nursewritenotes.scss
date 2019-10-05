@@ -1,0 +1,53 @@
+page-nursewritenotes {
+    ion-title{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 12px;
+        text-align: center;
+      }
+
+      .toolbar-background{
+        background-color: #177ec0;
+        color:#ffff;
+      }
+      .toolbar-title{
+        color: #fff;
+      }
+    .toolbar{
+        min-height: 50px;
+      }
+      .bar-button-default, .bar-button-clear-default, .bar-button-default{
+          color: #fff;
+      }
+      .boxss p{
+        line-height: 22px;
+        font-size: 12px;
+        margin: 0;
+      }
+      .boxss h3{
+        margin: 0px;
+        margin-bottom: 7px;
+        font-size: 14px;
+        color: #177ec0;
+        text-align: left;
+        line-height: 21px;
+      }
+      .boxss{
+          margin-bottom: 20px;
+      }
+      .btndone{
+        background-color: #177ec0;
+        color: #fff;
+        width: 100%;
+        padding: 12px;
+        font-size: 18px;
+        border-radius: 3px;
+
+      }
+      .textads{
+        border: 1px solid #ccc;
+    height: 89px;
+    padding: 0;
+      }
+}

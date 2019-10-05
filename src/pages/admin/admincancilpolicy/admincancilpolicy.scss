@@ -1,0 +1,32 @@
+page-admincancilpolicy {
+    .toolbar-background{
+        background-color: #177ec0;
+        color: #ffff;
+      }
+      .toolbar-title{
+        color: #fff;
+        font-weight: 400;
+        text-align: center;
+      }
+  
+      .conten30 h3{
+        text-align: center;
+        font-size: 18px;
+        color: #177ec0;
+      }
+      .conten30 p{
+        line-height: 25px;
+        font-size: 15px;
+        color: #5d5656;
+      }
+      ion-title{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 12px;
+        text-align: center;
+      }
+      ion-icon{
+        color:#fff;
+      }
+}

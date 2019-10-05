@@ -1,0 +1,43 @@
+page-shareappwithfriend {
+    .toolbar-background-md{
+        background-color: #177ec0;
+        color: #ffff;
+      }
+      .toolbar-title-md{
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+      }
+      .toolbar-md{
+        min-height: 50px;
+      }
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default{
+        color: #fff;
+      }
+    .label-md {
+        margin: 5px 8px 5px 0 !important;
+    }
+    .radio-md .radio-inner{
+        background-color:#000 !important;
+    }
+    .radio-md .radio-checked {
+        border-color: #000!important;
+    }
+    .header-i button{
+        background-color: transparent;
+        padding: 5px;
+      }
+      .header-i{
+        position: absolute;
+        right: 16px;
+        top: 12px;
+      }
+      ion-title{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 12px;
+        text-align: center;
+      }
+}

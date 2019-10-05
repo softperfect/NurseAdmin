@@ -1,0 +1,152 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+      <ion-title>Sign Up</ion-title>
+      <button class="btn-designss" (click)="backg()"> <ion-icon name="arrow-back"></ion-icon></button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+<div class="bg-1">                
+  
+  <img class="img-logo" src="assets/imgs/logo.png">
+  <ion-row>
+      <div class="desin1">
+          <form [formGroup]="authForm" >
+              <div class="errorsText" *ngIf="authForm.controls.firstName.hasError('required') && authForm.controls.firstName.touched">
+                  <p >Required Name</p>
+              </div>
+              <div class="errorsText" *ngIf="authForm.controls.firstName.hasError('pattern') && authForm.controls.firstName.touched">
+                  <p>Invalid Name</p>
+              </div>
+              <div [ngClass]="{'error-border':!authForm.controls.firstName.valid && authForm.controls.firstName.touched}">
+                  <input  type="text" formControlName="firstName"  placeholder="First Name" />
+              </div>
+
+              <div class="errorsText" *ngIf="authForm.controls.lastName.hasError('required') && authForm.controls.lastName.touched">
+                  <p >Required Name</p>
+              </div>
+              <div class="errorsText" *ngIf="authForm.controls.lastName.hasError('pattern') && authForm.controls.lastName.touched">
+                  <p>Invalid Name</p>
+              </div>
+              <div [ngClass]="{'error-border':!authForm.controls.lastName.valid && authForm.controls.lastName.touched}">
+                  <input type="text" formControlName="lastName" placeholder="Last Name" />
+              </div>
+
+              <div class="errorsText" *ngIf="authForm.controls.email.hasError('required') && authForm.controls.email.touched">
+                 <p >Required Email</p>
+              </div>
+              <div class="errorsText" *ngIf="authForm.controls.email.hasError('pattern') && authForm.controls.email.touched">
+                  <p>Invalid Email</p>
+              </div>
+              <div [ngClass]="{'error-border':!authForm.controls.email.valid && authForm.controls.email.touched}">
+                  <input type="email" formControlName="email" placeholder="Email Address" />
+              </div>
+
+              <div class="errorsText" *ngIf="authForm.controls.password.hasError('required') && authForm.controls.password.touched">
+                  <p >Required Password</p>
+              </div>
+              <div class="errorsText" *ngIf="authForm.controls.password.hasError('pattern') && authForm.controls.password.touched">
+                   <p>Invalid Password</p>
+              </div>
+              <div [ngClass]="{'error-border':!authForm.controls.password.valid && authForm.controls.password.touched}">
+                  <input type="password" formControlName="password" placeholder="Password" />
+              </div>
+
+              <div class="errorsText" *ngIf="authForm.controls.repassword.hasError('required') && authForm.controls.repassword.touched">
+                      <p >Required Password</p>
+              </div>
+              <div class="errorsText" *ngIf="authForm.controls.repassword.hasError('pattern') && authForm.controls.repassword.touched">
+                      <p>Invalid Password</p>
+              </div>
+              <div [ngClass]="{'error-border':!authForm.controls.repassword.valid && authForm.controls.repassword.touched}">
+                   <input type="password" formControlName="repassword" placeholder="Confirm Password" />
+              </div>
+          </form>
+      </div>
+
+      <button class="btn-login" (click)="firstsign(authForm.value)"  ion-button full style="background-color: #458fd0;">Next</button>
+
+
+  </ion-row>
+
+</div>
+
+
+  <div class="bg-2">
+              
+  
+  
+      <img class="img-logo" src="assets/imgs/logo.png">
+      <ion-row>
+          <div class="desin1">
+              <form [formGroup]="authForm" >
+              
+                  <div class="errorsText" *ngIf="authForm.controls.phone.hasError('required') && authForm.controls.phone.touched">
+                      <p >Required phone</p>
+                    </div>
+                  
+                    <div class="errorsText" *ngIf="authForm.controls.phone.hasError('minlength') || authForm.controls.phone.hasError('maxlength') || authForm.controls.phone.hasError('pattern')">
+                      <p>Please Enter 10 digit only </p>
+                    </div>
+
+
+                  <div [ngClass]="{'error-border':!authForm.controls.phone.valid && authForm.controls.phone.touched}">
+                       <input  type="tel" formControlName="phone"   placeholder="Phone Number" />
+                  </div>
+
+
+
+                  <div [ngClass]="{'error-border':!authForm.controls.nurseExp.valid && authForm.controls.nurseExp.touched}">
+                    <input  type="text" formControlName="nurseExp"   placeholder="How many years of nursing experience do you have?" />
+               </div>
+
+
+
+               <div [ngClass]="{'error-border':!authForm.controls.workPlace.valid && authForm.controls.workPlace.touched}">
+                <input  type="text" formControlName="workPlace"   placeholder="What town & state do you reside in?" />
+           </div>
+
+    
+         
+       
+        
+              <ion-item class="cat">
+                <ion-label>Occupation – Area of Interest</ion-label>
+                <ion-select formControlName="nursecat" [(ngModel)]="nursecat" (ionChange)="categoryChange(nursecat)">
+                  <ion-option value="{{nursecat.category_name}}" *ngFor="let nursecat of categoryList" >{{nursecat.category_name}}</ion-option>
+                 
+                </ion-select>
+          
+              </ion-item>
+
+            <ion-item class="cat">
+                <ion-label>Gender</ion-label>
+                <ion-select formControlName="nursegender">
+                  <ion-option value="" selected disabled>I am....</ion-option>
+                  <ion-option value="Male">Male</ion-option>
+                  <ion-option value="Female">Female</ion-option>
+             
+                </ion-select>
+          
+              </ion-item>
+        
+                 
+                 
+              </form>
+             
+                  <button class="btn-login"  (click)="onSubmit(authForm.value)"  ion-button full style="background-color: #458fd0;">Sign Up</button>
+              
+          </div>
+      </ion-row>
+
+  </div>
+
+
+</ion-content>

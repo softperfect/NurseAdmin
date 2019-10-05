@@ -1,0 +1,64 @@
+<!--
+  Generated template for the NotreceivingmailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+   
+    <ion-title>FAQ's</ion-title>
+    <div class="header-i">
+      <button (click)="dIsmss()"> <img src="assets/imgs/close.png"></button>
+    </div>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+
+<div class="details">
+<h1 style="font-size: 16px;
+color: #524d4d;">Not Receiving Email to Reset Password</h1>
+
+<p style="    font-size: 11px;
+line-height: 17px;">If you requested a new password but didn't receive your password reset email:</p>
+<p style="margin: 5px 0; color:#524d4d">Check the spam or junk mail folder in your email accounts linked to your Facebook account.</p>
+<p style="margin:5px 0; color:#524d4d">Try to reset your password again.</p>
+<p style="    font-size: 11px;
+line-height: 17px;">If you can't reset your password because you can't access the email or mobile phone number on your account, here are some things you can try:</p>
+<h6 style="color:#524d4d">Password Reset Tips</h6>
+<p style="margin: 5px 0; color:#524d4d">1. Try logging in with an alternate email or phone number</p>
+<p style="margin: 5px 0; color:#524d4d">2. Try to recover your email account</p>
+<p style="margin: 5px 0; color:#524d4d">3. Try troubleshooting your mobile phone number, or try Trusted Contacts</p>
+
+    <h6 style="color: #524d4d; font-size: 14px;">Was this information helpful?</h6>
+
+
+</div>
+<ion-list radio-group [(ngModel)]="relationship">
+<ion-row style="background-color: #d7d7d7;
+border-radius: 10px;
+margin: 20px 0 40px 0;">
+  <ion-col col-6  style=" text-align: center;     padding: 12px 0;">
+    
+    <ion-radio value="friends" checked style="    padding: 5px 0;margin-left: -7px;"></ion-radio>
+    <ion-label>Yes</ion-label>
+  </ion-col>
+  <ion-col col-6 style=" text-align: center;    padding: 12px 0;">
+    
+    <ion-radio value="family" style="    padding: 5px 0;margin-left: -7px;"></ion-radio>
+    <ion-label>No</ion-label>
+
+  </ion-col>
+</ion-row>
+</ion-list>
+  
+ 
+    
+
+
+</ion-content>

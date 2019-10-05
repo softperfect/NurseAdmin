@@ -1,0 +1,66 @@
+page-adminaddplan {
+    .btn-save{
+        margin: 0;
+        background: #177ec0;
+        text-transform: capitalize;
+        height: 40px;
+        border-radius: 3px;
+    }
+    .btn-save:hover{
+        background: #177ec0 !important;
+    }
+    .toolbar-background{
+        background: #177ec0;
+    }
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+        color: #fff;
+        background-color: transparent;
+    }
+    .toolbar-title-md {
+        color: #fff;
+        text-transform: capitalize;
+    }
+    .bar-button-default-ios, .bar-button-clear-ios-default, .bar-button-ios-default {
+        color: #fff;
+        background-color: transparent;
+    }
+    .toolbar-title-ios {
+        color: #fff;
+        text-transform: capitalize;
+    }
+    .fild-input {
+        width: 100%;
+        padding: 10px 20px;
+        border: 1px solid #ccc;
+        border-radius: 50px;
+        margin: 16px 16px 0 auto;
+        display: block;
+        text-transform: capitalize;
+    }
+    .content{
+        background-color: #f3f1f2;
+    }
+    
+    ion-item{
+        border-radius: 30px;
+        border: 1px solid #b3aeae !important;
+        height: 30px;
+        margin-top: 19px !important;
+        min-height: 41px !important;
+    }
+
+    .item-input .label-md, .item-select .label-md, .item-datetime .label-md {
+        color: #6d6d6d;
+        font-size: 15px;
+    }
+    .hide20{
+        display: none;
+    }
+    ion-title{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 12px;
+        text-align: center;
+      }
+}

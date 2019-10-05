@@ -1,0 +1,71 @@
+page-allnurse {
+    .toolbar-background{
+        background-color: #177ec0;
+        color: #ffff;
+      }
+      .toolbar-title{
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+      }
+      .toolbar{
+        min-height: 50px;
+      }
+      .bar-button-default, .bar-button-clear-default, .bar-button-default {
+        color: #ffffff;
+        background-color: transparent;
+    }
+    .bar-button-default:hover, .bar-button-clear-default:hover, .bar-button-default:hover{
+        color: #ffffff !important;
+    }
+    .searchbar {
+        background: #177ec0;
+        padding: 8px;
+        margin-top: 6px;
+    }
+    .searchbar .searchbar-input{
+        border-radius: 15px !important;
+    }
+    ul {
+        padding: 0px;
+        margin: 0;
+      
+        &.rating li {
+          padding: 5px 0px !important;
+          background: none;
+          color: #ffb400;
+          text-align: left;
+    
+          ion-icon {
+            font-size: 22px;
+            text-align: left;
+            padding: 0 1px;
+        
+          }
+        }
+      }
+
+      .rating-d p{
+          margin: 0px;
+          margin-bottom: 2px;
+      }
+      .rating-d button{
+        background-color: transparent;
+        color: #000;
+        border-radius: 30px;
+        padding: 5px 13px;
+        font-size: 12px;
+        margin-top: 3px;
+      }
+      .ionic3-star-rating[_ngcontent-c1] .button[_ngcontent-c1] ion-icon[_ngcontent-c1]{
+        font-size: 27px;
+      }
+      ion-title{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 12px;
+        text-align: center;
+      }
+}

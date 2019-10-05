@@ -1,0 +1,73 @@
+<!--
+  Generated template for the NursereviewsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{nurse_name}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+<div class="box-designs">
+<ion-row>
+  <ion-col col-4>
+    <div class="img-mm">
+      <img src={{nurse_pic?nurse_pic:defaultpic}} class="nupic" >
+    </div>
+    <!-- <rating [(ngModel)]="rate" rate="'3'" readOnly="false" max="5" emptyStarIconName="star-outline" halfStarIconName="star-half" starIconName="star"
+    nullable="false">
+  </rating> -->
+  <ionic3-star-rating 
+  activeIcon = "ios-star"
+  defaultIcon = "ios-star-outline"
+  activeColor = "#ffb400" 
+  defaultColor = "#969696"
+  readonly="false"
+  [rating]="rating">
+</ionic3-star-rating>
+  </ion-col>
+  <ion-col col-8>
+    <div class="contact-d">
+      <h3>{{nurse_name}}</h3>
+      <a (click)="viewPersonal()">View Personal Info</a>
+      <span class="green30"></span>
+      <button>{{status}}</button>
+    </div>
+  </ion-col>
+</ion-row>
+</div>
+
+
+<div class="box30" style="border-bottom: 1px solid #cac7c7;
+padding: 13px 0;">
+<h2> Electronic Notes </h2>
+<p>Click at "View Electronic Notes" below, to see the list of all Electronic Notes sent to the physician and family members of the user.  .
+  </p>
+  <a class="vi" (click)="electronic()">View Electronic Notes
+    </a>
+</div>
+
+
+<div class="box30">
+<h2> Appointments History
+  </h2>
+<p>You can view the appointment of history with its details.
+  </p>
+  <a (click)="viewcurrent()" class="vi" style="    display: block;
+  margin-bottom: 10px;">View Current Request    </a>
+  <a (click)="viewcomple()" class="vi" style="    display: block;
+  margin-bottom: 10px;">View Completed Request    </a>
+  <a (click)="viewshedule()" class="vi" style="    display: block;
+  margin-bottom: 10px;">View Scheduled Request    </a>
+  <a  (click)="viewreject()" class="vi" style="    display: block;
+  margin-bottom: 10px;">View Rejected Request    </a>
+</div>
+
+</ion-content>

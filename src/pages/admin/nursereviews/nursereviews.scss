@@ -1,0 +1,87 @@
+page-nursereviews {
+ 
+
+    .toolbar-background{
+        background-color: #177ec0;
+        color: #ffff;
+      }
+      .toolbar-title{
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+      }
+      .toolbar{
+        min-height: 50px;
+      }
+      .bar-button-default, .bar-button-clear-default, .bar-button-default {
+        color: #ffffff;
+        background-color: transparent;
+    }
+
+    .contact-d button{
+        background-color: transparent;
+        color: #3ea000;
+        border: 1px solid #1bad01;
+        padding: 3px 16px;
+        border-radius: 1px;
+        margin-left: 27px;
+        margin-top: 12px;
+    }
+    .contact-d  a{
+        display: block;
+    }
+    .contact-d{
+        margin-left: 15px;
+    }
+    .green30{
+        background-color: green;
+        border-radius: 100%;
+        width: 15px;
+        height: 15px;
+        display: block;
+        position: absolute;
+        top: 5em;
+
+    }
+    .box30{
+        margin-top: 20px;
+    }
+    .box30 h2{
+        font-size: 19px;
+    }
+    .box30 p{
+        line-height: 22px;
+        font-size: 13px;
+    }
+    .vi:hover {
+        opacity: 1.0;
+    }
+   
+      .nupic{
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        object-fit: cover;
+      }
+      .ionic3-star-rating[_ngcontent-c1] .button[_ngcontent-c1] ion-icon[_ngcontent-c1]{
+        font-size: 27px;
+      }
+
+    .ionic3-star-rating[_ngcontent-c1] .button[_ngcontent-c1] ion-icon[_ngcontent-c1]{
+        font-size: 17px;
+        padding: 0;
+        line-height: 0;
+      }
+      .ionic3-star-rating[_ngcontent-c1] .button[_ngcontent-c1]{
+        width: 15px;
+        height: 25px;
+      }
+      ion-title{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 12px;
+        text-align: center;
+      }
+} 

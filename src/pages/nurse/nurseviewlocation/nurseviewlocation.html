@@ -1,0 +1,39 @@
+<!--
+  Generated template for the NurseviewlocationPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Get Directions</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+    
+  
+  <div #map class="map"></div> 
+  <div class="km"> 
+  <span style="margin-left:10px;">{{userDetails.name}} is {{userDetails.time}} away</span><span style="float: right;
+  margin-right: 10px;">Distance:{{userDetails.distance}} Km</span>
+  </div>
+
+  <div class="nurse_det">
+   <ion-row>
+     <ion-col col-4>
+  <img src={{userDetails.userPic?userDetails.userPic:defaultImage}} class="nursepic">
+     </ion-col>
+     <ion-col col-8 style="display: inline-grid;">
+<span class="com">{{userDetails.name}}</span>
+<span class="com">{{userDetails.gender}}</span>
+<span class="com">{{userDetails.phone}}</span>
+<span class="com">{{userDetails.address}}</span>
+     </ion-col>
+   </ion-row>
+  </div>
+  </ion-content>
+

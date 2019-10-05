@@ -1,0 +1,48 @@
+<ion-header>
+
+    <ion-navbar>
+      <ion-title>Completed Requests</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content >
+      <div class="shidule" *ngFor="let dat of data">
+          <ion-row class="m20">
+                 <ion-col col-3 style="text-align: center;
+                 margin: 5px 0;">
+                  <img style="margin-left: 3px;
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 100%;
+                  object-fit: cover;" src={{dat.user_image}}>
+              </ion-col>
+      
+              <ion-col col-9>
+                  <h2 class="name1">{{dat.user_name}}</h2>
+                  <p class="time10">{{dat.created_date | date}} {{dat.created_date | date:'shortTime'}}</p>
+                  <p class="time10">{{dat.request_id}}</p>
+                 
+              </ion-col>
+          </ion-row>
+              <ion-row class="cancel-m">
+                <ion-col col-3>
+  
+                </ion-col>
+                  <ion-col col-4 class="padding-manage">
+                      <button style="margin: 0;" (click)="viewDetails(dat.care_type,dat.service_type_name,dat.services)">Service Details</button>
+                  </ion-col>
+      
+                  <ion-col col-4 class="padding-manage">
+                      <button style="margin: 0;" (click)="aditionDetails(dat.visit_type,dat.care_person,dat.medical_facility,dat.doctor_order,dat.needs,dat.contact_address,dat.contact_number)">Additional Details</button>
+                  </ion-col>
+              </ion-row>
+         </div>
+         <div class="nodata">
+            <h2 style="text-align: center;font-size: 19px;color: #a79999;">No  Completed Request Found !</h2>
+            </div>
+           
+  
+  </ion-content>
+  

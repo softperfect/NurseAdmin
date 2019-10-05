@@ -1,0 +1,38 @@
+<!--
+  Generated template for the AdminsettingPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>Setting</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+  <ion-list>
+    <ion-item (click)="AccountSetting()"><img src="assets/imgs/settings.png" class="setting_pic"> <span class="menu_setting">Account Settings</span></ion-item>
+    <ion-item (click)="updatePassword()"><img src="assets/imgs/password.png" class="setting_pic"> <span class="menu_setting">Update Password</span></ion-item>
+        <ion-item (click)="requestTime()"><img src="assets/imgs/document.png" class="setting_pic"> <span class="menu_setting">Set Request Time</span></ion-item>
+
+    <ion-item (click)="cancelPolicy()"><img src="assets/imgs/policy.png" class="setting_pic"> <span class="menu_setting">Cancellation Policy</span></ion-item>
+    <ion-item (click)="cancelPolicy()"><img src="assets/imgs/telephone-symbol-button.png" class="setting_pic"> <span class="menu_setting">Contact Us</span></ion-item>
+
+
+    <ion-item (click)="notification()"><img src="assets/imgs/noti.png" class="setting_pic"> <span class="menu_setting"> Send Notification</span ></ion-item>
+    <ion-item (click)="faqs()"><img src="assets/imgs/info.png" class="setting_pic"> <span class="menu_setting">FAQs</span></ion-item>
+   
+    <ion-item (click)="rateApp()"><img src="assets/imgs/favorite.png" class="setting_pic"> <span class="menu_setting">Rate Nursing on Demand</span></ion-item>
+    <ion-item (click)="about()"><img src="assets/imgs/refresh-button.png" class="setting_pic"> <span class="menu_setting">About Us</span></ion-item>
+    <ion-item (click)="termOfuse()"><img src="assets/imgs/shield.png" class="setting_pic"> <span class="menu_setting">Terms of Use</span></ion-item>
+    <ion-item (click)="privacyPolicy()"><img src="assets/imgs/document.png" class="setting_pic"> <span class="menu_setting">Privacy and Policy</span></ion-item>
+  </ion-list>
+
+</ion-content>

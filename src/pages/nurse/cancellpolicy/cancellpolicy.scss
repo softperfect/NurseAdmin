@@ -1,0 +1,49 @@
+page-cancellpolicy {
+    .toolbar-background-md{
+        background-color: #177ec0;
+        color: #ffff;
+      }
+      .toolbar-title-md{
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+      }
+      .toolbar-md{
+        min-height: 50px;
+      }
+    h3{
+      font-size: 18px;
+      text-align: center;
+      color: #177ec0;
+      margin: 6% 0 5%;
+      font-weight: 400;
+      }
+    
+      p{
+        font-size: 17px;
+        line-height: 25px;
+        color: #666;
+        padding: 9px 16px;
+        font-weight: 300;
+        text-align: left;
+        word-spacing: 4px;
+      }
+      .scroll-content {
+        background: #f6f7fb;
+    }
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+        color: #f6f7fb;
+        background-color: transparent;
+    }
+    .bar-button-default-md:hover:not(.disable-hover), .bar-button-clear-md-default:hover:not(.disable-hover), .bar-button-md-default:hover:not(.disable-hover){
+        color:#fff;
+    }
+    ion-title{
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      top: 12px;
+      text-align: center;
+    }
+}
